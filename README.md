@@ -25,7 +25,7 @@ Sidan är gjord i PHP,HTML och CSS
 - `data.php`: Innehåller information om lagen
 - `body.php`: skapar ett html table där informationen från data.php visas
 - `cityValues.php`: samlar alla unika städer som lagen kommer ifrån och sedan visar dem i en lista
-- `head.php`: startar html taggar och innehåller <head>
+- `head.php`: startar html taggar och innehåller <.head>
 - `footer.php`: avslutar html taggar
 - `teams.php`: räknar antalet lag med i data.php
 
