@@ -1,0 +1,58 @@
+:root {
+  --primary-bg: #121212; /* Main background color, suitable for body */
+  --secondary-bg: #1e1e1e; /* Secondary background, perhaps for sidebars or modals */
+  --accent-red: #ff3b30; /* Accent color for errors or warnings */
+  --accent-blue: #007aff; /* Accent color for information or clickable items */
+  --text-primary: #e0e0e0; /* Main text color */
+  --text-secondary: #b0b0b0; /* Secondary text, perhaps for less important information or labels */
+  --hover-bg: #2a2a2a; /* Background color for hoverable items */
+  --border-color: #2c2c2c; /* Borders for dividers or around elements */
+  --button-primary: #181818; /* Primary button background */
+  --button-secondary: #242424; /* Secondary button or perhaps toggle switches */
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url("fonts/Cairo-VariableFont_slnt\,wght.ttf") format("truetype");
+}
+
+body {
+  font-family: "Cairo";
+  background-color: var(--primary-bg);
+  color: var(--text-primary);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+thead th {
+  background-color: var(--accent-red);
+  padding: 10px 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+tbody td {
+  color: var(--text-secondary);
+  padding: 8px;
+  border: 1px solid var(--border-color);
+}
+tbody tr:nth-child(odd) {
+  background-color: var(--secondary-bg);
+}
+
+tbody tr:hover {
+  background-color: var(--hover-bg);
+}
+
+tbody tr:hover td {
+  color: var(--text-primary);
+}
+
+tbody td:first-child {
+  font-weight: bold;
+}
