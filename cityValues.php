@@ -14,7 +14,7 @@ foreach ($teams as $key => $city) {
 
 <section>
     <ul>
-        <h2>list of cities the teams play in</h2>
+        <h2>LIST OF CITIES</h2>
         <?php foreach ($cities as $key => $city) : ?>
             <li><?php echo $city ?></li>
         <?php endforeach ?>

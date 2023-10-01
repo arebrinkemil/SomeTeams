@@ -10,3 +10,8 @@
 </head>
 
 <body>
+    <header>
+        <h1>SOME TEAMS</h1>
+    </header>
+
+    <main>

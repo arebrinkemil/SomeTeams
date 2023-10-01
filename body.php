@@ -6,7 +6,7 @@ require __DIR__ . '/data.php';
 <table>
     <thead>
         <tr>
-            <th>TEAM</th>
+            <th>TEAMS<?php echo "($NumberOfTeams)" ?></th>
             <th>LEAGUE</th>
             <th>CITY</th>
             <th>LAST CHAMPIONS</th>
