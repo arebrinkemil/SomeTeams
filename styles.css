@@ -1,14 +1,14 @@
 :root {
-  --primary-bg: #121212; /* Main background color, suitable for body */
-  --secondary-bg: #1e1e1e; /* Secondary background, perhaps for sidebars or modals */
-  --accent-red: #ff3b30; /* Accent color for errors or warnings */
-  --accent-blue: #007aff; /* Accent color for information or clickable items */
-  --text-primary: #e0e0e0; /* Main text color */
-  --text-secondary: #b0b0b0; /* Secondary text, perhaps for less important information or labels */
-  --hover-bg: #2a2a2a; /* Background color for hoverable items */
-  --border-color: #2c2c2c; /* Borders for dividers or around elements */
-  --button-primary: #181818; /* Primary button background */
-  --button-secondary: #242424; /* Secondary button or perhaps toggle switches */
+  --primary-bg: #121212;
+  --secondary-bg: #1e1e1e;
+  --accent-red: #ff3b30;
+  --accent-blue: #007aff; 
+  --text-primary: #e0e0e0; 
+  --text-secondary: #b0b0b0;
+  --hover-bg: #2a2a2a; 
+  --border-color: #2c2c2c; 
+  --button-primary: #181818; 
+  --button-secondary: #242424; 
 }
 
 @font-face {
@@ -51,7 +51,7 @@ table {
 }
 
 ul {
-  padding-top: 0; /* Reset top padding for ul */
+  padding-top: 0; 
 }
 
 thead th {
