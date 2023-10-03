@@ -7,6 +7,7 @@ Uppgift gjord av Emil Årerbink
 Sidan visar ett html table med information om olika fotbollslag.
 Den visar även en lista på alla städer som lagen kommer ifrån
 Sidan är gjord i PHP,HTML och CSS
+Detta är en skoluppgift för YRGO
 
 ## Gjord med
 
